@@ -27,7 +27,7 @@
   <!-- Contenitore principale Vue -->
   <div id="app" class="ms_container d-flex flex-column" v-cloak>
     <!-- Carosello -->
-    <div class="row ms_carousel" @mouseover="autoplayOff" @mouseout="autoplayOn">
+    <div class="row ms_carousel" @mouseenter="autoplayOff" @mouseleave="autoplayOn">
       <!-- Slide Principale -->
       <div class="col-10 p-0 h-100">
         <div class="ms_items">

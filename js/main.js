@@ -50,6 +50,6 @@ createApp({
         },
     },
     mounted() {
-        this.autoplayInterval = setInterval(() => this.next(), 3000);
+        this.autoplayOn();
     },
 }).mount('#app');
